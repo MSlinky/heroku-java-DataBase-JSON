@@ -1,0 +1,12 @@
+{
+    "name": "Light Logging Configurer running on Heroku",
+    "description": "Pluggable Java web library for runtime logging level configuration: quick and easy",
+    "keywords": ["java", "logback", "spring"],
+    "website": "http://la-team.github.io/light-logging-configurer/",
+    "repository": "https://github.com/la-team/light-logging-configurer-heroku.git",
+    "logo": "https://avatars0.githubusercontent.com/u/6241988?v=2&s=200",
+    "success_url": "/",
+    "scripts": {},
+    "env": {},
+    "addons": []
+}
