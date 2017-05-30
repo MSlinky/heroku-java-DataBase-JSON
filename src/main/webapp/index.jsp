@@ -20,6 +20,6 @@
                     request.getParameter("email")+"');"));
         objConexion.Close();
     }else{
-        out.println("{\""+accion+"\":[]}");
+        out.println("{\""+request.getParameter("accion")+"\":[]}");
     }
 %>
