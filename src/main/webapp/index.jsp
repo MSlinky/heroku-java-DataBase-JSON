@@ -20,6 +20,10 @@
                         request.getParameter("RFC")+"','"+
                         request.getParameter("email")+"');"));
             objConexion.Close();
+        }else if(request.getParameter("accion").equals("AllProductos")){
+            Conexion objConexion = new Conexion();    
+            out.println(objConexion.executeQuery("SELECT * FROM public.\"Productos\"", request.getParameter("accion")));
+            objConexion.Close();
         }else{
             out.println("{\""+request.getParameter("accion")+"\":[]}");
         }
